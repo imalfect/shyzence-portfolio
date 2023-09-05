@@ -1,6 +1,5 @@
 import React from 'react'
 import Typography from "@mui/material/Typography";
-import BehindGlow from "./BehindGlow.jsx";
 
 export default function MyWorkLabel() {
     return (

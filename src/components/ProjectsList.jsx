@@ -29,8 +29,8 @@ export default function ProjectsList(props) {
                     borderColor: '#1e1f22',
                     p: 2,
                     borderRadius: 3.5,
-                    height: 300,
-                    width: 300,
+                    height: props.boxHeight,
+                    width: props.boxWidth,
                     textAlign: 'center'}}>
                         <img
                             src={`${item.img}`}
@@ -52,8 +52,8 @@ export default function ProjectsList(props) {
                     borderColor: '#1e1f22',
                     p: 2,
                     borderRadius: 3.5,
-                    height: 300,
-                    width: 300,
+                    height: props.boxHeight,
+                    width: props.boxWidth,
                     textAlign: 'center',
                     display: 'flex',
                     flexDirection: 'column',

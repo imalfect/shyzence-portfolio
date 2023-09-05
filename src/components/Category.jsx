@@ -27,9 +27,11 @@ export default function Category(props) {
                 {props.name}
             </Typography>
             {showAll === true ?
-            <ProjectsList images={props.images} description={props.description} type="full" name={props.name}/>
+            <ProjectsList images={props.images} description={props.description} type="full" name={props.name}
+                          boxWidth={props.boxWidth} boxHeight={props.boxHeight}/>
             :
-            <ProjectsList images={props.images.slice(0, 5)} description={props.description} type="short" name={props.name}/>}
+            <ProjectsList images={props.images.slice(0, 5)} description={props.description} type="short" name={props.name}
+                          boxWidth={props.boxWidth} boxHeight={props.boxHeight}/>}
         </>
 
     )

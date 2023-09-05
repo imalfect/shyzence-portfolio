@@ -15,6 +15,11 @@ const darkTheme = createTheme({
     },
     typography: {
         h2: {
+            fontSize: '3.75rem',
+            // Make 2.125 for mobile
+            '@media (max-width:600px)': {
+                fontSize: '2.125rem',
+            },
             fontWeight: 700,
         },
         fontFamily: 'Manrope',

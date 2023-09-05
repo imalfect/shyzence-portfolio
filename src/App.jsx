@@ -24,6 +24,8 @@ function App() {
                           key={collection.name}
                           images={collection.images}
                           description={collection.description}
+                          boxWidth={collection.boxWidth}
+                          boxHeight={collection.boxHeight}
                           name={collection.name}/>
                   ))}
                   <ContactMeLabel />
