@@ -3,6 +3,6 @@ import Divider from '@mui/material/Divider';
 
 export default function BetterDivider() {
     return (
-        <Divider sx={{mt: 2, mb: 4}}/>
+        <Divider sx={{mt: 4, mb: 4}}/>
     )
 }

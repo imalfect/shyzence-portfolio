@@ -11,6 +11,7 @@ import {emitter} from "../App.jsx";
 
 
 export default function ProjectsList(props) {
+    const [aspectRatio, setAspectRatio] = React.useState('1/1');
     const toggleShowAll = () => {
         if (props.type === 'full') {
             emitter.emit('disableShowAll', {target: props.name});
@@ -23,29 +24,32 @@ export default function ProjectsList(props) {
         <Grid container justifyContent="center" alignItems={"center"} sx={{gap: 5}}>
             {props.images.map((item) => (
                 // eslint-disable-next-line react/jsx-key
-                <Grid item sx={{
-                    borderStyle: 'solid',
-                    borderWidth: 4,
-                    borderColor: '#1e1f22',
-                    p: 2,
-                    borderRadius: 3.5,
-                    height: props.boxHeight,
-                    width: props.boxWidth,
-                    textAlign: 'center'}}>
-                        <img
-                            src={`${item.img}`}
-                            srcSet={`${item.img}`}
-                            alt={item.title}
-                            style={{maxWidth: '90%'}}
-                            loading="lazy"
-                        />
-                        <ImageListItemBar
-                            title={item.title}
-                            position="below"
-                        />
+                <Grid item
+                      sx={{
+                          borderStyle: 'solid',
+                          borderWidth: 4,
+                          borderColor: '#1e1f22',
+                          p: 2,
+                          borderRadius: 3.5,
+                          height: props.boxHeight,
+                          width: props.boxWidth,
+                          textAlign: 'center'}}>
+                    <img
+                        src={`${item.img}`}
+                        srcSet={`${item.img}`}
+                        alt={item.title}
+                        style={{maxWidth: '90%'}}
+                        loading="lazy"
+                    />
+                    <ImageListItemBar
+                        title={item.title}
+                        position="below"
+                        sx={{textAlign: 'left'}}
+                    />
                 </Grid>
             ))}
-            <Grid item sx={{height: '100%'}}>
+            <Grid item
+                  sx={{height: '100%'}}>
                 <Box sx={{
                     borderStyle: 'solid',
                     borderWidth: 4,

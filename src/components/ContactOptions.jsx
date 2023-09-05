@@ -7,32 +7,42 @@ import {EmailRounded} from "@mui/icons-material";
 import DiscordIcon from "./icons/DiscordIcon.jsx";
 import InstagramIcon from "./icons/InstagramIcon.jsx";
 import XIcon from "./icons/XIcon.jsx";
+import MailRoundedIcon from "@mui/icons-material/MailRounded.js";
 export default function ContactOptions() {
     return (
-        <Typography
-            variant="h5"
-            component="h5"
-            sx={{ textAlign: "center", mt: 2, mb: 5}}
-        >
-            You can contact me via the following methods:
-            <Grid container justifyContent="center">
+            <Grid container justifyContent="center" sx={{mb: 5}}>
                 <Grid item>
-                    <Button variant="contained" sx={{ mt: 2, mr: 2, textTransform: 'revert'}}>
+                    <Button
+                        variant="contained"
+                        sx={{ mt: 2, mr: 2, textTransform: 'revert'}}
+                        href={"https://discord.com/users/423635211243487242"}>
                        <DiscordIcon/><b>@shyzence</b>
                     </Button>
                 </Grid>
                 <Grid item>
-                    <Button variant="contained" sx={{ mt: 2, mr: 2, textTransform: 'revert'}}>
+                    <Button
+                        variant="contained"
+                        sx={{ mt: 2, mr: 2, textTransform: 'revert'}}
+                        href={"https://www.instagram.com/shyzence"}>
                         <InstagramIcon/><b>@shyzence</b>
                     </Button>
                 </Grid>
                 <Grid item>
-                    <Button variant="contained" sx={{ mt: 2, mr: 2, textTransform: 'revert'}}>
+                    <Button
+                        variant="contained"
+                        sx={{ mt: 2, mr: 2, textTransform: 'revert'}}
+                        href={"https://twitter.com/shyzence"}>
                         <XIcon/><b>@shyzence</b>
                     </Button>
                 </Grid>
-
+                <Grid item>
+                    <Button variant="contained" sx={{ mt: 2, mr: 2, textTransform: 'revert', fontWeight: 700}}>
+                        <MailRoundedIcon/>
+                        <a href={'mailto:shyzence@gmail.com'} style={{textDecoration: 'none', color: 'inherit', marginLeft: 10, textTransform: 'lowercase'}}>
+                            shyzence@gmail.com
+                        </a>
+                    </Button>
+                </Grid>
             </Grid>
-        </Typography>
     )
 }

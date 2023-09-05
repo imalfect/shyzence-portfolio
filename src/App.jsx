@@ -4,11 +4,12 @@ import TopBar from "./components/AppBar.jsx";
 import Hero from "./components/Hero.jsx";
 import {Container} from "@mui/material";
 import BetterDivider from "./components/BetterDivider.jsx";
-import MyWorkLabel from "./components/MyWorkLabel.jsx";
-import ContactMeLabel from "./components/ContactMeLabel.jsx";
+import FeaturedWorkLabel from "./components/FeaturedWorkLabel.jsx";
+import GetInTouchLabel from "./components/GetInTouchLabel.jsx";
 import ContactOptions from "./components/ContactOptions.jsx";
 import {collections} from "./collections.js";
 import Category from "./components/Category.jsx";
+import Footer from "./components/Footer.jsx";
 export const emitter = new EventEmitter();
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
           <Container>
               <div style={{ margin: '0 auto', width: 'fit-content' }}>
                   <Hero />
-                  <MyWorkLabel />
-                  <BetterDivider />
+                  <FeaturedWorkLabel/>
+                  <BetterDivider/>
                   {collections.map((collection) => (
                       <Category
                           key={collection.name}
@@ -28,11 +29,11 @@ function App() {
                           boxHeight={collection.boxHeight}
                           name={collection.name}/>
                   ))}
-                  <ContactMeLabel />
-                  <BetterDivider />
+                  <GetInTouchLabel/>
                   <ContactOptions/>
               </div>
           </Container>
+          <Footer/>
 
       </>
   )

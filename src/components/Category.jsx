@@ -2,6 +2,7 @@ import React from 'react';
 import {emitter} from "../App.jsx";
 import ProjectsList from "./ProjectsList.jsx";
 import Typography from "@mui/material/Typography";
+import BetterDivider from "./BetterDivider.jsx";
 
 export default function Category(props) {
     const [showAll, setShowAll] = React.useState(false);
@@ -32,6 +33,7 @@ export default function Category(props) {
             :
             <ProjectsList images={props.images.slice(0, 5)} description={props.description} type="short" name={props.name}
                           boxWidth={props.boxWidth} boxHeight={props.boxHeight}/>}
+            <BetterDivider/>
         </>
 
     )

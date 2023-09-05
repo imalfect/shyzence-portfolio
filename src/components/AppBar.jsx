@@ -17,9 +17,24 @@ export default function TopBar() {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 700}}>
                         Shyzence
                     </Typography>
-                    <Button color="inherit" sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 20}}>Home</Button>
-                    <Button color="inherit" sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 20}}>Work</Button>
-                    <Button color="inherit" sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 20}}>Contact</Button>
+                    <Button
+                        color="inherit"
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 20}}
+                        href="#">
+                        Home
+                    </Button>
+                    <Button
+                        color="inherit"
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 20}}
+                        href="#work">
+                        Work
+                    </Button>
+                    <Button
+                        color="inherit"
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 20}}
+                        href="#contact">
+                        Contact
+                    </Button>
                 </Toolbar>
             </AppBar>
         </Box>
