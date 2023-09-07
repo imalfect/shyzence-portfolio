@@ -9,13 +9,13 @@ export default function Hero() {
     return (
         <Grid container spacing alignItems="center" justifyContent="center" sx={{mt: 4}}>
             <Grid item lg={7}>
-                <Typography variant="h3" component="h3">
+                <Typography variant="h2" component="h2">
                     Hello, I'm <span style={{color: "secondary.main"}}>Shyzence</span>,
                 </Typography>
-                <Typography variant="h3" component="h3">
+                <Typography variant="h4" component="h4">
                     A Graphic Designer
                 </Typography>
-                <Typography variant="h3" component="h3" >
+                <Typography variant="h4" component="h4" >
                     Based in Canada.
                 </Typography>
                 <Typography variant="h6" component="h6" sx={{mt: 2, pr: 10}}>
