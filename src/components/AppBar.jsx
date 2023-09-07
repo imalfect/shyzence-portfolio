@@ -14,7 +14,7 @@ export default function TopBar() {
             <AppBar position="static" sx={{backgroundColor: 'background.appbar'}}>
                 <Toolbar>
                     <Avatar src={ShyzenceAvatar} sx={{mr: 2}}/>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 700}}>
+                    <Typography variant="h7" component="div" sx={{ flexGrow: 1, fontWeight: 700}}>
                         Shyzence
                     </Typography>
                     <Button
