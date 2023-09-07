@@ -39,7 +39,7 @@ import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6.png";
 import mangoNFT from "./assets/projects/example/mango_nft_robot.png"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
-  name: "Token Designs",
+  name: "Token / Logo Designs",
   description: "Unique token designs intended to captivate with wide-style visuals, featuring vibrant colors and simple, eye catching details.",
   boxWidth: 300,
   boxHeight: 300,
