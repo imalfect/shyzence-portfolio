@@ -15,7 +15,10 @@ export default function ContactOptions() {
                     <Button
                         variant="contained"
                         sx={{ mt: 2, mr: 2, textTransform: 'revert'}}
-                        href={"https://discord.com/users/423635211243487242"}>
+                        href={"https://discord.com/users/423635211243487242"}
+                        target={"_blank"}
+                        rel={"noreferrer"}
+                    >
                        <DiscordIcon/><b>@shyzence</b>
                     </Button>
                 </Grid>
@@ -23,7 +26,10 @@ export default function ContactOptions() {
                     <Button
                         variant="contained"
                         sx={{ mt: 2, mr: 2, textTransform: 'revert'}}
-                        href={"https://www.instagram.com/shyzence"}>
+                        href={"https://www.instagram.com/shyzence"}
+                        target={"_blank"}
+                        rel={"noreferrer"}
+                    >
                         <InstagramIcon/><b>@shyzence</b>
                     </Button>
                 </Grid>
@@ -31,7 +37,10 @@ export default function ContactOptions() {
                     <Button
                         variant="contained"
                         sx={{ mt: 2, mr: 2, textTransform: 'revert'}}
-                        href={"https://twitter.com/shyzence"}>
+                        href={"https://twitter.com/shyzence"}
+                        target={"_blank"}
+                        rel={"noreferrer"}
+                    >
                         <XIcon/><b>@shyzence</b>
                     </Button>
                 </Grid>

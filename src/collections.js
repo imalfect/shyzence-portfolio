@@ -36,6 +36,7 @@ import encircles48 from "./assets/projects/encirclesNFTs/Encircles_48.png";
 import encircles50 from "./assets/projects/encirclesNFTs/Encircles_50.png";
 import encircles5 from "./assets/projects/encirclesNFTs/Encircles_5.png";
 import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6.png";
+import mangoNFT from "./assets/projects/example/mango_nft_robot.png"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token Designs",
@@ -45,8 +46,8 @@ const tokenDesignsCollection = {
   images: [
     { img: wookinu, title: 'Wookinu' },
     { img: edao, title: 'eDAO' },
-    { img: pepperLogo, title: 'Pepper' }, {img: kivi, title: 'Kivi'
-    },
+    { img: pepperLogo, title: 'Pepper' },
+    {img: kivi, title: 'Kivi'},
     { img: mayocoin, title: 'Mayocoin' },
     { img: manangos, title: 'Manangos' },
     { img: bananoRoll, title: 'Bananoroll' },
@@ -99,8 +100,20 @@ const encirclesNFTsCollection = {
       { img: encircles6, title: "Encircles 6" },
     ]
 }
+
+// EXAMPLE
+const exampleCollection = {
+    name: "Example",
+    description: "Example example examplwe 219912891",
+    boxWidth: 300,
+    boxHeight: 300,
+    images: [
+        {img: mangoNFT, title: 'Example 1st'},
+    ]
+}
 export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
-  encirclesNFTsCollection
+  encirclesNFTsCollection,
+  exampleCollection
 ]
