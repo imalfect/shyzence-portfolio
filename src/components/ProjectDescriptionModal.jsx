@@ -14,7 +14,7 @@ const style = {
     borderRadius: 6,
     boxShadow: 24,
     p: 4,
-    textAlign: 'center'
+    textAlign: 'left'
 };
 
 export default function ProjectDescriptionModal(props) {
