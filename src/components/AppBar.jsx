@@ -19,19 +19,19 @@ export default function TopBar() {
                     </Typography>
                     <Button
                         color="inherit"
-                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 16}}
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 17}}
                         href="#">
                         Home
                     </Button>
                     <Button
                         color="inherit"
-                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 16}}
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 17}}
                         href="#work">
                         Work
                     </Button>
                     <Button
                         color="inherit"
-                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 16}}
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 17}}
                         href="#contact">
                         Contact
                     </Button>
