@@ -12,10 +12,10 @@ export default function Hero() {
                 <Typography variant="h2" component="h2">
                     Hello, I'm <span style={{color: "secondary.main"}}>Shyzence</span>,
                 </Typography>
-                <Typography variant="h2" component="h2">
+                <Typography variant="h3" component="h3">
                     A Graphic Designer
                 </Typography>
-                <Typography variant="h2" component="h2" >
+                <Typography variant="h3" component="h3" >
                     Based in Canada.
                 </Typography>
                 <Typography variant="h6" component="h6" sx={{mt: 2, pr: 10}}>
