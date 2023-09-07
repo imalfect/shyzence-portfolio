@@ -14,25 +14,25 @@ export default function TopBar() {
             <AppBar position="static" sx={{backgroundColor: 'background.appbar'}}>
                 <Toolbar>
                     <Avatar src={ShyzenceAvatar} sx={{mr: 2}}/>
-                    <Typography style={{ fontSize: '17px' }} component="div" sx={{ flexGrow: 1, fontWeight: 700 }}>
+                    <Typography style={{ fontSize: '27px' }} component="div" sx={{ flexGrow: 1, fontWeight: 700 }}>
                         Shyzence
                     </Typography>
 
                     <Button
                         color="inherit"
-                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 17}}
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 27}}
                         href="#">
                         Home
                     </Button>
                     <Button
                         color="inherit"
-                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 17}}
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 27}}
                         href="#work">
                         Work
                     </Button>
                     <Button
                         color="inherit"
-                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 17}}
+                        sx={{fontWeight: 700, textTransform: 'capitalize', fontSize: 27}}
                         href="#contact">
                         Contact
                     </Button>
