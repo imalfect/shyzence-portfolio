@@ -58,7 +58,7 @@ export default function ProjectsList(props) {
                     borderRadius: 3.5,
                     height: props.boxHeight,
                     width: props.boxWidth,
-                    textAlign: 'center',
+                    textAlign: 'left',
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'space-between'
