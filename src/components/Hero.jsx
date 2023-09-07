@@ -9,7 +9,7 @@ export default function Hero() {
     return (
         <Grid container spacing alignItems="center" justifyContent="center" sx={{mt: 4}}>
             <Grid item lg={7}>
-                <Typography variant="h2" component="h2">
+                <Typography variant="h3" component="h3">
                     Hello, I'm <span style={{color: "secondary.main"}}>Shyzence</span>,
                 </Typography>
                 <Typography variant="h3" component="h3">
