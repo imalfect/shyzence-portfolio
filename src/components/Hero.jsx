@@ -18,7 +18,7 @@ export default function Hero() {
                 <Typography variant="h2" component="h2" >
                     Based in Canada.
                 </Typography>
-                <Typography variant="h7" component="h7" sx={{mt: 2, pr: 10}}>
+                <Typography variant="h6" component="h6" sx={{mt: 2, pr: 10}}>
                     Specializing but not limited to the Cryptocurrency space, I help projects and individuals with Logos, Avatars, NFT’s, and anything else they may need.
                 </Typography>
                 <Button variant="contained" sx={{mt: 4, fontWeight: 700}}>
