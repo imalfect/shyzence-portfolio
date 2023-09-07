@@ -66,7 +66,7 @@ export default function ProjectsList(props) {
                     <Typography variant="body1" component="p" gutterBottom>
                         {props.description}
                     </Typography>
-                    {props.images.length === 5 ?
+                    {props.images.length > 5 ?
                         <Button variant="contained" sx={{mt: 2, mr: 2, textTransform: 'revert'}} onClick={() => toggleShowAll()}>
                             {props.type === 'full' ? 'Show less' : 'Show more'}
                         </Button>
