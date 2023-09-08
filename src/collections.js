@@ -37,7 +37,8 @@ import encircles50 from "./assets/projects/encirclesNFTs/Encircles_50_600.webp";
 import encircles5 from "./assets/projects/encirclesNFTs/Encircles_5_600.webp";
 import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6_600.webp";
 import nexa_innovation from "./assets/projects/nexa_assets/nexa_innovation.webp";
-import nexa_pyramid from "./assets/projects/nexa_assets/nexa_pyramid.webp"
+import nexa_pyramid from "./assets/projects/nexa_assets/nexa_pyramid.webp";
+import nexa_rocket from "./assets/projects/nexa_assets/nexa_rocket.webp"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
@@ -109,6 +110,7 @@ const encirclesNFTsCollection = {
       images: [
         { img: nexa_innovation, title: "Innovation" },
         { img: nexa_pyramid, title: "Pyramid" },
+        { img: nexa_rocket, title: "Rocket" },
       ]
     }
 export const collections = [
