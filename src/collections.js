@@ -72,7 +72,7 @@ const pepperNFTsCollection = {
     boxWidth: 300,
     boxHeight: 400,
     images: [
-      { img: pepperNFT011, title: "Bonsai Habanero" }, 
+      { img: pepperNFT011, title: "Bonsai2 Habanero" }, 
       { img: pepperNFT008, title: "Space Heater" },
       { img: pepperNFT007, title: "Purple UFO Pepper" },
       { img: pepperNFT004, title: "Devil's Tongue Nebula" },
