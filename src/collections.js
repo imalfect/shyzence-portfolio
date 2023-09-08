@@ -114,7 +114,7 @@ const encirclesNFTsCollection = {
   }
   const nexa_assetsCollection = {
       name: "Nexa Marketing Assets",
-      description: "AI assisted images tailored for the NEXA development team.",
+      description: "Custom made AI assisted images tailored for the NEXA development team.",
       boxWidth: 300,
       boxHeight: 300,
       images: [
