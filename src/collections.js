@@ -100,7 +100,7 @@ const encirclesNFTsCollection = {
       { img: encircles6, title: "Encircles 6" },
     ]
   }
-  const encirclesNFTsCollection2 = {
+  const nexa_assetsCollection = {
       name: "Encircles NFTs2",
       description: "Encircles NFTs feature real paintings by the artist, each measuring a mere 1\" in diameter and hand painted on paper. These one-of-a-kind artworks are gently limited to a series of 5 NFTs per painting, priced modestly to encourage collectors.",
       boxWidth: 300,
@@ -124,5 +124,5 @@ export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
   encirclesNFTsCollection,
-  encirclesNFTsCollection2
+  nexa_assetsCollection
 ]
