@@ -19,7 +19,7 @@ export default function Hero() {
                     Based in Canada.
                 </Typography>
                 <Typography variant="h6" component="h6" sx={{mt: 2, pr: 10}}>
-                    Specializing but not limited to the Cryptocurrency space, I help projects and individuals with Logos, Avatars, NFT’s, and anything else they may need.
+                Specializing but not limited to the Cryptocurrency space, I assist projects and individuals by providing services such as logos, avatars, NFTs, and any other design needs they may have.
                 </Typography>
                 <Button variant="contained" sx={{mt: 4, fontWeight: 700}}>
                     <MailRoundedIcon/>
