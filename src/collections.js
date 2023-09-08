@@ -109,16 +109,6 @@ const encirclesNFTsCollection = {
       images: [
         { img: nexa_innovation, title: "Innovation" },
         { img: nexa_pyramid, title: "Pyramid" },
-        { img: encircles20, title: "Encircles 20" },
-        { img: encircles21, title: "Encircles 21" },
-        { img: encircles31, title: "Encircles 31" },
-        { img: encircles34, title: "Encircles 34" },
-        { img: encircles41, title: "Encircles 41" },
-        { img: encircles47, title: "Encircles 47" },
-        { img: encircles48, title: "Encircles 48" },
-        { img: encircles50, title: "Encircles 50" },
-        { img: encircles5, title: "Encircles 5" },
-        { img: encircles6, title: "Encircles 6" },
       ]
     }
 export const collections = [
