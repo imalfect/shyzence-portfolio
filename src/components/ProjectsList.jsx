@@ -1,17 +1,14 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
-import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-import ImageList from "@mui/material/ImageList";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import {emitter} from "../App.jsx";
-
-
+import ReactMarkdown from "react-markdown";
+import '../index.css';
 
 export default function ProjectsList(props) {
-    const [aspectRatio, setAspectRatio] = React.useState('1/1');
     const toggleShowAll = () => {
         if (props.type === 'full') {
             emitter.emit('disableShowAll', {target: props.name});
@@ -66,7 +63,7 @@ export default function ProjectsList(props) {
                     justifyContent: 'space-between'
                 }}>
                     <Typography variant="body1" component="p" gutterBottom>
-                        {props.description}
+                        <ReactMarkdown className={"reactMarkDown"} linkTarget={"_blank"}>{props.description}</ReactMarkdown>
                     </Typography>
                     {props.images.length === 5 && props.type !== 'full' || props.type === 'full' ?
                         <Button variant="contained" sx={{mt: 2, mr: 2, textTransform: 'revert'}} onClick={() => toggleShowAll()}>

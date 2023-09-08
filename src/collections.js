@@ -12,6 +12,7 @@ import piko from "./assets/projects/tokenDesigns/piko_600.webp";
 import snowball from "./assets/projects/tokenDesigns/snowball_600.webp";
 import tater from "./assets/projects/tokenDesigns/tater_600.webp";
 import wookcoin from "./assets/projects/tokenDesigns/wookcoin_600.webp";
+import tokenDesignsDescription from "./assets/projects/tokenDesigns/description.md?raw"
 import pepperNFT001 from "./assets/projects/pepperNFTs/pepper_nft001_adonis_in_the_square_600.webp";
 import pepperNFT002 from "./assets/projects/pepperNFTs/pepper_nft002_the_pied_pepper_600.webp";
 import pepperNFT003 from "./assets/projects/pepperNFTs/pepper_nft003_a_little_chile_at_the_beach_600.webp";
@@ -24,6 +25,7 @@ import pepperNFT009 from "./assets/projects/pepperNFTs/pepper_nft009_scorch_bonn
 import pepperNFT010 from "./assets/projects/pepperNFTs/pepper_nft010_laying_down_the_heat_600.webp";
 import pepperNFT011 from "./assets/projects/pepperNFTs/pepper_nft011_bonsai_habanero_600.webp";
 import pepperNFT012 from "./assets/projects/pepperNFTs/pepper_nft012_poivrons_en_papier_600.webp";
+import pepperNFTDescription from "./assets/projects/pepperNFTs/description.md?raw"
 import encircles15 from "./assets/projects/encirclesNFTs/Encircles_15_600.webp";
 import encircles18 from "./assets/projects/encirclesNFTs/Encircles_18_600.webp";
 import encircles20 from "./assets/projects/encirclesNFTs/Encircles_20_600.webp";
@@ -36,6 +38,7 @@ import encircles48 from "./assets/projects/encirclesNFTs/Encircles_48_600.webp";
 import encircles50 from "./assets/projects/encirclesNFTs/Encircles_50_600.webp";
 import encircles5 from "./assets/projects/encirclesNFTs/Encircles_5_600.webp";
 import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6_600.webp";
+import encirclesDescription from "./assets/projects/encirclesNFTs/description.md?raw"
 import nexa_innovation from "./assets/projects/nexa_assets/nexa_innovation.webp";
 import nexa_pyramid from "./assets/projects/nexa_assets/nexa_pyramid.webp";
 import nexa_rocket from "./assets/projects/nexa_assets/nexa_rocket.webp";
@@ -49,16 +52,19 @@ import nexa_milleniumfalcon from "./assets/projects/nexa_assets/nexa_milleniumfa
 import nexa_starship from "./assets/projects/nexa_assets/nexa_starship.webp";
 import nexa_diamondhands from "./assets/projects/nexa_assets/nexa_diamondhands.webp";
 import nexa_miner from "./assets/projects/nexa_assets/nexa_miner.webp";
+import nexaAssetsDescription from "./assets/projects/nexa_assets/description.md?raw"
 import commgarden_nft_1 from "./assets/projects/communitygardenNFTs/commgarden_nft_1.webp";
 import commgarden_nft_2 from "./assets/projects/communitygardenNFTs/commgarden_nft_2.webp";
 import commgarden_nft_3 from "./assets/projects/communitygardenNFTs/commgarden_nft_3.webp";
 import commgarden_nft_4 from "./assets/projects/communitygardenNFTs/commgarden_nft_4.webp";
 import commgarden_nft_5 from "./assets/projects/communitygardenNFTs/commgarden_nft_5.webp";
-import commgarden_nft_6 from "./assets/projects/communitygardenNFTs/commgarden_nft_6.webp"
+import commgarden_nft_6 from "./assets/projects/communitygardenNFTs/commgarden_nft_6.webp";
+import commgardenDescription from "./assets/projects/communitygardenNFTs/description.md?raw"
+console.log(pepperNFTDescription);
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
-  description: "Unique token designs intended to captivate with wide-style visuals, featuring vibrant colors and simple, eye-catching details.",
+  description: tokenDesignsDescription,
   boxWidth: 300,
   boxHeight: 300,
   images: [
@@ -80,11 +86,11 @@ const tokenDesignsCollection = {
 }
 const pepperNFTsCollection = {
     name: "Pepper NFTs",
-    description: "Pepper NFTs burst with vibrant colors and high-quality AI stitch-assisted artwork. \n These fiery peppers come to life in a kaleidoscope of hues, aiming to offer collectors a surreal and visually stunning experience.",
+    description: pepperNFTDescription,
     boxWidth: 300,
     boxHeight: 400,
     images: [
-      { img: pepperNFT011, title: "Bonsai Habanero" }, 
+      { img: pepperNFT011, title: "Bonsai Habanero" },
       { img: pepperNFT008, title: "Space Heater" },
       { img: pepperNFT007, title: "Purple UFO Pepper" },
       { img: pepperNFT004, title: "Devil's Tongue Nebula" },
@@ -100,7 +106,7 @@ const pepperNFTsCollection = {
 }
 const encirclesNFTsCollection = {
     name: "Encircles NFTs",
-    description: "Encircles NFTs feature real paintings by the artist, each measuring a mere 1\" in diameter and hand painted on paper. These one-of-a-kind artworks are gently limited to a series of 5 NFTs per painting, priced modestly to encourage collectors.",
+    description: encirclesDescription,
     boxWidth: 300,
     boxHeight: 300,
     images: [
@@ -120,7 +126,7 @@ const encirclesNFTsCollection = {
   }
   const nexa_assetsCollection = {
       name: "Nexa Marketing Assets",
-      description: "Custom made AI assisted images tailored for the NEXA development team.",
+      description: nexaAssetsDescription,
       boxWidth: 300,
       boxHeight: 300,
       images: [
@@ -141,7 +147,7 @@ const encirclesNFTsCollection = {
     }
     const communitygardenNFTsCollection = {
       name: "Community Garden NFTs",
-      description: "Custom made AI assisted images tailored for the NEXA development team.",
+      description: commgardenDescription,
       boxWidth: 300,
       boxHeight: 440,
       images: [
