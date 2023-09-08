@@ -145,12 +145,12 @@ const encirclesNFTsCollection = {
       boxWidth: 300,
       boxHeight: 300,
       images: [
-        { img: commgarden_nft1, title: "Bury the Bulbs" },
-        { img: commgarden_nft2, title: "Germinate the Seeds" },
-        { img: commgarden_nft3, title: "Till the Soil" },
-        { img: commgarden_nft4, title: "Aerate the Beds" },
-        { img: commgarden_nft5, title: "Water the Crops" },
-        { img: commgarden_nft6, title: "Fertilize the Sprouts" },
+        { img: commgarden_nft_1, title: "Bury the Bulbs" },
+        { img: commgarden_nft_2, title: "Germinate the Seeds" },
+        { img: commgarden_nft_3, title: "Till the Soil" },
+        { img: commgarden_nft_4, title: "Aerate the Beds" },
+        { img: commgarden_nft_5, title: "Water the Crops" },
+        { img: commgarden_nft_6, title: "Fertilize the Sprouts" },
       ]
     }
 export const collections = [
