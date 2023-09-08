@@ -62,7 +62,7 @@ const tokenDesignsCollection = {
 }
 const pepperNFTsCollection = {
     name: "Pepper NFTs",
-    description: "Pepper NFTs are bursting with vibrant colors and high-quality artwork. These fiery peppers come to life in a kaleidoscope of hues, aiming to offer collectors a surreal and visually stunning experience.",
+    description: "Pepper NFTs are bursting with vibrant colors and high-quality AI stich-assisted artwork. These fiery peppers come to life in a kaleidoscope of hues, aiming to offer collectors a surreal and visually stunning experience.",
     boxWidth: 300,
     boxHeight: 400,
     images: [
