@@ -44,7 +44,7 @@ const tokenDesignsCollection = {
   boxWidth: 300,
   boxHeight: 300,
   images: [
-    { img: wookinu, title: 'Wookinu' },
+    { img: wookinu, title: 'Wookinu2' },
     { img: edao, title: 'eDAO' },
     { img: pepperLogo, title: 'Pepper' },
     {img: kivi, title: 'Kivi'},
