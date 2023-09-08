@@ -102,7 +102,7 @@ const encirclesNFTsCollection = {
     ]
   }
   const nexa_assetsCollection = {
-      name: "Nexa Assets",
+      name: "Nexa Marketing Assets",
       description: "Temporary.",
       boxWidth: 300,
       boxHeight: 300,
