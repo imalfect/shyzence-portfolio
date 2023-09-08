@@ -150,7 +150,7 @@ const encirclesNFTsCollection = {
         { img: commgarden_nft_3, title: "Till the Soil" },
         { img: commgarden_nft_4, title: "Aerate the Beds" },
         { img: commgarden_nft_5, title: "Water the Crops" },
-        { img: commgarden_nft_6, title: "Fertilize the Sprouts" },
+        { img: commgarden_nft6, title: "Fertilize the Sprouts" },
       ]
     }
 export const collections = [
