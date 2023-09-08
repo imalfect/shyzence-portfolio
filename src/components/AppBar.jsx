@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import ShyzenceAvatar from '../assets/avatar2.webp'
+import ShyzenceAvatar from '../assets/avatar.png'
 import Avatar from "@mui/material/Avatar";
 export default function TopBar() {
     return (
