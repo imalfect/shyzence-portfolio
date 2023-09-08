@@ -40,7 +40,8 @@ import nexa_innovation from "./assets/projects/nexa_assets/nexa_innovation.webp"
 import nexa_pyramid from "./assets/projects/nexa_assets/nexa_pyramid.webp";
 import nexa_rocket from "./assets/projects/nexa_assets/nexa_rocket.webp";
 import nexa_engine from "./assets/projects/nexa_assets/nexa_engine.webp";
-import nexa_speed from "./assets/projects/nexa_assets/nexa_speed.webp"
+import nexa_speed from "./assets/projects/nexa_assets/nexa_speed.webp";
+import nexa_atlantis from "./assets/projects/nexa_assets/nexa_atlantis.webp"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
@@ -115,6 +116,7 @@ const encirclesNFTsCollection = {
         { img: nexa_rocket, title: "Rocket" },
         { img: nexa_engine, title: "Engine" },
         { img: nexa_speed, title: "Speed" },
+        { img: nexa_atlantis, title: "Atlantis" },
       ]
     }
 export const collections = [
