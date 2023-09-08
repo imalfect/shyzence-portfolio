@@ -92,7 +92,7 @@ const encirclesNFTsCollection = {
     boxWidth: 300,
     boxHeight: 300,
     images: [
-      { img: encircles15, title: "Encircles No.15" },
+      { img: encircles15, title: "Encircles Number 15" },
       { img: encircles18, title: "Encircles No.18" },
       { img: encircles20, title: "Encircles No.20" },
       { img: encircles21, title: "Encircles No.21" },
