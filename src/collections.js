@@ -48,7 +48,13 @@ import nexa_stormtrooper from "./assets/projects/nexa_assets/nexa_stormtrooper.w
 import nexa_milleniumfalcon from "./assets/projects/nexa_assets/nexa_milleniumfalcon.webp";
 import nexa_starship from "./assets/projects/nexa_assets/nexa_starship.webp";
 import nexa_diamondhands from "./assets/projects/nexa_assets/nexa_diamondhands.webp";
-import nexa_miner from "./assets/projects/nexa_assets/nexa_miner.webp"
+import nexa_miner from "./assets/projects/nexa_assets/nexa_miner.webp";
+import commgarden_nft_1 from "./assets/projects/communitygardenNFTs/commgarden_nft_1.webp";
+import commgarden_nft_2 from "./assets/projects/communitygardenNFTs/commgarden_nft_2.webp";
+import commgarden_nft_3 from "./assets/projects/communitygardenNFTs/commgarden_nft_3.webp";
+import commgarden_nft_4 from "./assets/projects/communitygardenNFTs/commgarden_nft_4.webp";
+import commgarden_nft_5 from "./assets/projects/communitygardenNFTs/commgarden_nft_5.webp";
+import commgarden_nft_6 from "./assets/projects/communitygardenNFTs/commgarden_nft_6.webp"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
