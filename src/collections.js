@@ -82,7 +82,7 @@ const pepperNFTsCollection = {
 }
 const encirclesNFTsCollection = {
     name: "Encircles NFTs",
-    description: "Encircles NFTs feature real paintings by the artist, each measuring just over 1\" in diameter and hand painted in acrylic on paper. These one-of-a-kind artworks are offered in limited series of 5 NFTs per painting, priced modestly to encourage collectors.",
+    description: "Encircles NFTs feature real paintings by the artist, each measuring a mere 1\" in diameter and hand painted on paper. These one-of-a-kind artworks are offered in limited series of 5 NFTs per painting, priced modestly to encourage collectors.",
     boxWidth: 300,
     boxHeight: 300,
     images: [
