@@ -28,24 +28,26 @@ export default function ProjectsList(props) {
                       sx={{
                           borderStyle: 'solid',
                           borderWidth: 4,
-                          borderColor: '#1e1f22',
+                          borderColor: 'primary.borders',
                           p: 2,
                           borderRadius: 3.5,
                           height: props.boxHeight,
                           width: props.boxWidth,
                           textAlign: 'center'}}>
-                    <img
-                        src={`${item.img}`}
-                        srcSet={`${item.img}`}
-                        alt={item.title}
-                        style={{maxWidth: '90%'}}
-                        loading="lazy"
-                    />
-                    <ImageListItemBar
+                    <div style={{ maxWidth: '90%', marginLeft: 'auto', marginRight: 'auto'}}>
+                        <img
+                            src={`${item.img}`}
+                            srcSet={`${item.img}`}
+                            alt={item.title}
+                            style={{ width: '100%'}}
+                            loading="lazy"
+                        />
+                        <ImageListItemBar
                         title={item.title}
                         position="below"
                         sx={{textAlign: 'left'}}
                     />
+                    </div>
                 </Grid>
             ))}
             <Grid item
@@ -53,7 +55,7 @@ export default function ProjectsList(props) {
                 <Box sx={{
                     borderStyle: 'solid',
                     borderWidth: 4,
-                    borderColor: '#1e1f22',
+                    borderColor: 'primary.borders',
                     p: 2,
                     borderRadius: 3.5,
                     height: props.boxHeight,
