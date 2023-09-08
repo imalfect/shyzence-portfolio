@@ -101,12 +101,12 @@ const encirclesNFTsCollection = {
     ]
   }
   const nexa_assetsCollection = {
-      name: "Encircles NFTs2",
-      description: "Encircles NFTs feature real paintings by the artist, each measuring a mere 1\" in diameter and hand painted on paper. These one-of-a-kind artworks are gently limited to a series of 5 NFTs per painting, priced modestly to encourage collectors.",
+      name: "Nexa Assets",
+      description: "Temporary.",
       boxWidth: 300,
       boxHeight: 300,
       images: [
-        { img: encircles15, title: "Encircles 15" },
+        { img: nexa_innovation, title: "Innovation" },
         { img: encircles18, title: "Encircles 18" },
         { img: encircles20, title: "Encircles 20" },
         { img: encircles21, title: "Encircles 21" },
