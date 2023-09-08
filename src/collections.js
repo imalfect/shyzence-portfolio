@@ -145,19 +145,12 @@ const encirclesNFTsCollection = {
       boxWidth: 300,
       boxHeight: 300,
       images: [
-        { img: nexa_innovation, title: "Innovation" },
-        { img: nexa_pyramid, title: "Pyramid" },
-        { img: nexa_rocket, title: "Rocket" },
-        { img: nexa_engine, title: "Engine" },
-        { img: nexa_speed, title: "Speed" },
-        { img: nexa_atlantis, title: "Atlantis" },
-        { img: nexa_cyberlock, title: "Cyberlock" },
-        { img: nexa_deathstar, title: "Death Star" },
-        { img: nexa_stormtrooper, title: "Stormtrooper" },
-        { img: nexa_milleniumfalcon, title: "Millenium Falcon" },
-        { img: nexa_starship, title: "Starship" },
-        { img: nexa_diamondhands, title: "Diamond Hands" },
-        { img: nexa_miner, title: "Miner" },
+        { img: commgarden_nft1, title: "Bury the Bulbs" },
+        { img: commgarden_nft2, title: "Germinate the Seeds" },
+        { img: commgarden_nft3, title: "Till the Soil" },
+        { img: commgarden_nft4, title: "Aerate the Beds" },
+        { img: commgarden_nft5, title: "Water the Crops" },
+        { img: commgarden_nft6, title: "Fertilize the Sprouts" },
       ]
     }
 export const collections = [
