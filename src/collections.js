@@ -143,7 +143,7 @@ const encirclesNFTsCollection = {
       name: "Community Garden NFTs",
       description: "Custom made AI assisted images tailored for the NEXA development team.",
       boxWidth: 300,
-      boxHeight: 425,
+      boxHeight: 450,
       images: [
         { img: commgarden_nft_1, title: "Bury the Bulbs" },
         { img: commgarden_nft_2, title: "Germinate the Seeds" },
