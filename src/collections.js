@@ -88,7 +88,7 @@ const pepperNFTsCollection = {
     name: "Pepper NFTs",
     description: pepperNFTDescription,
     boxWidth: 300,
-    boxHeight: 400,
+    boxHeight: 390,
     images: [
       { img: pepperNFT011, title: "Bonsai Habanero" },
       { img: pepperNFT008, title: "Space Heater" },
