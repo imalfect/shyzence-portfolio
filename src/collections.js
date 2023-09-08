@@ -98,9 +98,30 @@ const encirclesNFTsCollection = {
       { img: encircles5, title: "Encircles 5" },
       { img: encircles6, title: "Encircles 6" },
     ]
-}
+  }
+  const encirclesNFTsCollection2 = {
+      name: "Encircles NFTs2",
+      description: "Encircles NFTs feature real paintings by the artist, each measuring a mere 1\" in diameter and hand painted on paper. These one-of-a-kind artworks are gently limited to a series of 5 NFTs per painting, priced modestly to encourage collectors.",
+      boxWidth: 300,
+      boxHeight: 300,
+      images: [
+        { img: encircles15, title: "Encircles 15" },
+        { img: encircles18, title: "Encircles 18" },
+        { img: encircles20, title: "Encircles 20" },
+        { img: encircles21, title: "Encircles 21" },
+        { img: encircles31, title: "Encircles 31" },
+        { img: encircles34, title: "Encircles 34" },
+        { img: encircles41, title: "Encircles 41" },
+        { img: encircles47, title: "Encircles 47" },
+        { img: encircles48, title: "Encircles 48" },
+        { img: encircles50, title: "Encircles 50" },
+        { img: encircles5, title: "Encircles 5" },
+        { img: encircles6, title: "Encircles 6" },
+      ]
+    }
 export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
-  encirclesNFTsCollection
+  encirclesNFTsCollection,
+  encirclesNFTsCollection2
 ]
