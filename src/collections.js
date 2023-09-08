@@ -41,7 +41,14 @@ import nexa_pyramid from "./assets/projects/nexa_assets/nexa_pyramid.webp";
 import nexa_rocket from "./assets/projects/nexa_assets/nexa_rocket.webp";
 import nexa_engine from "./assets/projects/nexa_assets/nexa_engine.webp";
 import nexa_speed from "./assets/projects/nexa_assets/nexa_speed.webp";
-import nexa_atlantis from "./assets/projects/nexa_assets/nexa_atlantis.webp"
+import nexa_atlantis from "./assets/projects/nexa_assets/nexa_atlantis.webp";
+import nexa_cyberlock from "./assets/projects/nexa_assets/nexa_cyberlock.webp";
+import nexa_deathstar from "./assets/projects/nexa_assets/nexa_deathstar.webp";
+import nexa_stormtrooper from "./assets/projects/nexa_assets/nexa_stormtrooper.webp";
+import nexa_milleniumfalcon from "./assets/projects/nexa_assets/nexa_milleniumfalcon.webp";
+import nexa_starship from "./assets/projects/nexa_assets/nexa_starship.webp";
+import nexa_diamondhands from "./assets/projects/nexa_assets/nexa_diamondhands.webp";
+import nexa_miner from "./assets/projects/nexa_assets/nexa_miner.webp"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
@@ -117,6 +124,13 @@ const encirclesNFTsCollection = {
         { img: nexa_engine, title: "Engine" },
         { img: nexa_speed, title: "Speed" },
         { img: nexa_atlantis, title: "Atlantis" },
+        { img: nexa_cyberlock, title: "Cyberlock" },
+        { img: nexa_deathstar, title: "Death Star" },
+        { img: nexa_stormtrooper, title: "Stormtrooper" },
+        { img: nexa_milleniumfalcon, title: "Millenium Falcon" },
+        { img: nexa_starship, title: "Starship" },
+        { img: nexa_diamondhands, title: "Diamond Hands" },
+        { img: nexa_miner, title: "Miner" },
       ]
     }
 export const collections = [
