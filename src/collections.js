@@ -100,6 +100,17 @@ const encirclesNFTsCollection = {
       { img: encircles6, title: "Encircles 6" },
     ]
 }
+
+// EXAMPLE
+const exampleCollection = {
+    name: "Example",
+    description: "Example example examplwe 219912891",
+    boxWidth: 300,
+    boxHeight: 300,
+    images: [
+        {img: mangoNFT, title: 'Example 1st'},
+    ]
+}
 export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
