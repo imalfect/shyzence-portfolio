@@ -3,7 +3,7 @@ import Avatar from "@mui/material/Avatar";
 import Grid from "@mui/material/Grid";
 import MailRoundedIcon from '@mui/icons-material/MailRounded';
 import Button from "@mui/material/Button";
-import ShyzenceAvatar from '../assets/avatar.png';
+import ShyzenceAvatar from '../assets/avatar.webp';
 
 export default function Hero() {
     return (
