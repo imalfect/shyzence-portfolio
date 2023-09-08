@@ -67,11 +67,11 @@ const pepperNFTsCollection = {
     boxHeight: 400,
     images: [
       { img: pepperNFT011, title: "Bonsai Habanero" }, 
-      { img: pepperNFT005, title: "Liberty on Fire" },
       { img: pepperNFT008, title: "Space Heater" },
+      { img: pepperNFT007, title: "Purple UFO Pepper" },
       { img: pepperNFT004, title: "Devil's Tongue Nebula" },
       { img: pepperNFT006, title: "Flying Fish Pepper" },
-      { img: pepperNFT007, title: "Purple UFO Pepper" },
+      { img: pepperNFT005, title: "Liberty on Fire" },
       { img: pepperNFT001, title: "Adonis in the Square" },
       { img: pepperNFT002, title: "The Pied Pepper" },
       { img: pepperNFT003, title: "A Little Chile at the Beach" },
