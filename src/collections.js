@@ -108,7 +108,7 @@ const encirclesNFTsCollection = {
     name: "Encircles NFTs",
     description: encirclesDescription,
     boxWidth: 300,
-    boxHeight: 300,
+    boxHeight: 306,
     images: [
       { img: encircles15, title: "Encircles 15" },
       { img: encircles18, title: "Encircles 18" },
