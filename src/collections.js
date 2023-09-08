@@ -66,6 +66,7 @@ const pepperNFTsCollection = {
     boxWidth: 300,
     boxHeight: 400,
     images: [
+      { img: pepperNFT011, title: "Bonsai Habanero" }, 
       { img: pepperNFT001, title: "Adonis in the Square" },
       { img: pepperNFT002, title: "The Pied Pepper" },
       { img: pepperNFT003, title: "A Little Chile at the Beach" },
@@ -76,7 +77,6 @@ const pepperNFTsCollection = {
       { img: pepperNFT008, title: "Space Heater" },
       { img: pepperNFT009, title: "Scorch Bonnet" },
       { img: pepperNFT010, title: "Laying Down the Heat" },
-      { img: pepperNFT011, title: "Bonsai Habanero" },
       { img: pepperNFT012, title: "Poivrons en Papier" },
     ]
 }
