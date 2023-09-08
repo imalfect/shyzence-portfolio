@@ -114,6 +114,6 @@ const nexa_assetsCollection = {
 export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
-  encirclesNFTsCollection
+  encirclesNFTsCollection,
   nexa_assetsCollection
 ]
