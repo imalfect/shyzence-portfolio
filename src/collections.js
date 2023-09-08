@@ -24,19 +24,18 @@ import pepperNFT009 from "./assets/projects/pepperNFTs/pepper_nft009_scorch_bonn
 import pepperNFT010 from "./assets/projects/pepperNFTs/pepper_nft010_laying_down_the_heat_600.webp";
 import pepperNFT011 from "./assets/projects/pepperNFTs/pepper_nft011_bonsai_habanero_600.webp";
 import pepperNFT012 from "./assets/projects/pepperNFTs/pepper_nft012_poivrons_en_papier_600.webp";
-import encircles15 from "./assets/projects/encirclesNFTs/Encircles_15.png";
-import encircles18 from "./assets/projects/encirclesNFTs/Encircles_18.png";
-import encircles20 from "./assets/projects/encirclesNFTs/Encircles_20.png";
-import encircles21 from "./assets/projects/encirclesNFTs/Encircles_21.png";
-import encircles31 from "./assets/projects/encirclesNFTs/Encircles_31.png";
-import encircles34 from "./assets/projects/encirclesNFTs/Encircles_34.png";
-import encircles41 from "./assets/projects/encirclesNFTs/Encircles_41.png";
-import encircles47 from "./assets/projects/encirclesNFTs/Encircles_47.png";
-import encircles48 from "./assets/projects/encirclesNFTs/Encircles_48.png";
-import encircles50 from "./assets/projects/encirclesNFTs/Encircles_50.png";
-import encircles5 from "./assets/projects/encirclesNFTs/Encircles_5.png";
-import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6.png";
-import mangoNFT from "./assets/projects/example/mango_nft_robot.png"
+import encircles15 from "./assets/projects/encirclesNFTs/Encircles_15_600.webp";
+import encircles18 from "./assets/projects/encirclesNFTs/Encircles_18_600.webp";
+import encircles20 from "./assets/projects/encirclesNFTs/Encircles_20_600.webp";
+import encircles21 from "./assets/projects/encirclesNFTs/Encircles_21_600.webp";
+import encircles31 from "./assets/projects/encirclesNFTs/Encircles_31_600.webp";
+import encircles34 from "./assets/projects/encirclesNFTs/Encircles_34_600.webp";
+import encircles41 from "./assets/projects/encirclesNFTs/Encircles_41_600.webp";
+import encircles47 from "./assets/projects/encirclesNFTs/Encircles_47_600.webp";
+import encircles48 from "./assets/projects/encirclesNFTs/Encircles_48_600.webp";
+import encircles50 from "./assets/projects/encirclesNFTs/Encircles_50_600.webp";
+import encircles5 from "./assets/projects/encirclesNFTs/Encircles_5_600.webp";
+import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6_600.webp";
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
