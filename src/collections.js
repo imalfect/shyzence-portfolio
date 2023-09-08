@@ -139,9 +139,31 @@ const encirclesNFTsCollection = {
         { img: nexa_miner, title: "Miner" },
       ]
     }
+    const nexa_assetsCollection2 = {
+      name: "Nexa Marketing Assets",
+      description: "Custom made AI assisted images tailored for the NEXA development team.",
+      boxWidth: 300,
+      boxHeight: 300,
+      images: [
+        { img: nexa_innovation, title: "Innovation" },
+        { img: nexa_pyramid, title: "Pyramid" },
+        { img: nexa_rocket, title: "Rocket" },
+        { img: nexa_engine, title: "Engine" },
+        { img: nexa_speed, title: "Speed" },
+        { img: nexa_atlantis, title: "Atlantis" },
+        { img: nexa_cyberlock, title: "Cyberlock" },
+        { img: nexa_deathstar, title: "Death Star" },
+        { img: nexa_stormtrooper, title: "Stormtrooper" },
+        { img: nexa_milleniumfalcon, title: "Millenium Falcon" },
+        { img: nexa_starship, title: "Starship" },
+        { img: nexa_diamondhands, title: "Diamond Hands" },
+        { img: nexa_miner, title: "Miner" },
+      ]
+    }
 export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
   encirclesNFTsCollection,
+  nexa_assetsCollection,
   nexa_assetsCollection
 ]
