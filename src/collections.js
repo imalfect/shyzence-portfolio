@@ -139,7 +139,7 @@ const encirclesNFTsCollection = {
         { img: nexa_miner, title: "Miner" },
       ]
     }
-    const communitygardenNFTsCollectionn = {
+    const communitygardenNFTsCollection = {
       name: "Community Garden NFTs",
       description: "Custom made AI assisted images tailored for the NEXA development team.",
       boxWidth: 300,
