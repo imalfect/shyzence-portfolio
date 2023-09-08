@@ -128,7 +128,7 @@ const encirclesNFTsCollection = {
       name: "Nexa Marketing Assets",
       description: nexaAssetsDescription,
       boxWidth: 300,
-      boxHeight: 308,
+      boxHeight: 306,
       images: [
         { img: nexa_innovation, title: "Innovation" },
         { img: nexa_pyramid, title: "Pyramid" },
