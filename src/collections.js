@@ -36,6 +36,8 @@ import encircles48 from "./assets/projects/encirclesNFTs/Encircles_48_600.webp";
 import encircles50 from "./assets/projects/encirclesNFTs/Encircles_50_600.webp";
 import encircles5 from "./assets/projects/encirclesNFTs/Encircles_5_600.webp";
 import encircles6 from "./assets/projects/encirclesNFTs/Encircles_6_600.webp";
+import nexa_innovation from "./assets/projects/nexa_assets/nexa_innovation.webp";
+import nexa_pyramid from ".assets/projects/nexa_assets/nexa_pyramid.webp"
 // TOKEN DESIGNS
 const tokenDesignsCollection = {
   name: "Token / Logo Designs",
@@ -99,8 +101,19 @@ const encirclesNFTsCollection = {
       { img: encircles6, title: "Encircles 6" },
     ]
 }
+const nexa_assetsCollection = {
+  name: "Nexa Assets",
+  description: "Encircles NFTs feature real paintings by the artist, each measuring a mere 1\" in diameter and hand painted on paper. These one-of-a-kind artworks are gently limited to a series of 5 NFTs per painting, priced modestly to encourage collectors.",
+  boxWidth: 300,
+  boxHeight: 300,
+  images: [
+    { img: nexa_innovation, title: "Innovation" },
+    { img: nexa_pyramid, title: "Pyramid" },
+  ]
+}
 export const collections = [
   tokenDesignsCollection,
   pepperNFTsCollection,
   encirclesNFTsCollection
+  nexa_assetsCollection
 ]
