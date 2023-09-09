@@ -56,7 +56,7 @@ const lightTheme = createTheme({
         },
         primary: {
             main: '#f2f2f2',
-            borders: '#8c8c8c',
+            borders: '#b1b1b1',
         }
     },
     typography: {
