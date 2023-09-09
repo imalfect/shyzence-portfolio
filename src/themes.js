@@ -55,7 +55,7 @@ const lightTheme = createTheme({
             appbar: '#1e1f22',
         },
         primary: {
-            main: '#3a3939',
+            main: '#f2f2f2',
             borders: '#8c8c8c',
         }
     },
