@@ -17,7 +17,7 @@ export default function ColorModeSwitch() {
             aria-label="Toggle color mode"
             >
             {
-                mode === 'dark' ? <LightModeRoundedIcon/> : <DarkModeRoundedIcon/>
+                mode === 'dark' ? <DarkModeRoundedIcon/> : <LightModeRoundedIcon/>
             }
         </IconButton>
     )
