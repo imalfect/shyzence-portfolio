@@ -36,10 +36,10 @@ function Website() {
         })
     }, []);
     return (
-        <ThemeProvider theme={getTheme(mode)}>
-            <CssBaseline />
-            <App />
-        </ThemeProvider>
+            <ThemeProvider theme={getTheme(mode)}>
+                <CssBaseline />
+                <App />
+            </ThemeProvider>
     )
 }
 
