@@ -5,7 +5,10 @@ const darkTheme = createTheme({
         mode: 'dark',
         background: {
             default: '#2b2d31',
-            appbar: '#1e1f22',
+            footer: '#2b2d31',
+        },
+        appbar: {
+            main: '#1e1f22',
         },
         primary: {
             main: '#3a3939',
@@ -25,10 +28,13 @@ const darkTheme = createTheme({
     },
 });
 const lightTheme = createTheme({
+    mode: 'light',
     palette: {
-        mode: 'light',
         background: {
-            appbar: '#1e1f22',
+            footer: '#1e1f22',
+        },
+        appbar: {
+            main: '#1e1f22',
         },
         primary: {
             main: '#f2f2f2',
