@@ -21,8 +21,7 @@ export default function TopBar() {
                         <Button
                             sx={{ fontWeight: 700, textTransform: 'capitalize',
                                 fontSize: 17, color: '#fff'}}
-                            href="#"
-                        >
+                            href="#">
                             Home
                         </Button>
                         <Button
