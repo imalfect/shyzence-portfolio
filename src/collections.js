@@ -1,4 +1,4 @@
-import arenablitz from "./assets/projects/tokenDesigns/arenablitz_600.webp";
+import blitzzer from "./assets/projects/tokenDesigns/arenablitz_600.webp";
 import wookinu from "./assets/projects/tokenDesigns/wookinu_600.webp";
 import edao from "./assets/projects/tokenDesigns/edao_600.webp";
 import pepperLogo from "./assets/projects/tokenDesigns/pepper_600.webp";
@@ -69,7 +69,7 @@ const tokenDesignsCollection = {
   boxWidth: 300,
   boxHeight: 300,
   images: [
-    { img: arenablitz, title: 'ArenaBlitz' },
+    { img: blitzzer, title: 'Blitzzer' },
     { img: wookinu, title: 'Wookinu' },
     { img: edao, title: 'eDAO' },
     { img: pepperLogo, title: 'Pepper' },
