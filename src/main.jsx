@@ -5,7 +5,7 @@ import {CssBaseline, ThemeProvider} from "@mui/material";
 import themes from "./themes.js";
 import {emitter} from "./App.jsx";
 // Get "theme" cookie
-function getCurrentTheme() {
+export function getCurrentTheme() {
     let colorScheme = document.cookie.split('; ').find(row => row.startsWith('theme='));
     // Get only the value of the cookie
     // If the cookie doesn't exist, set it to "dark"
@@ -36,10 +36,10 @@ function Website() {
         })
     }, []);
     return (
-        <ThemeProvider theme={getTheme(mode)}>
-            <CssBaseline />
-            <App />
-        </ThemeProvider>
+            <ThemeProvider theme={getTheme(mode)}>
+                <CssBaseline />
+                <App />
+            </ThemeProvider>
     )
 }
 
